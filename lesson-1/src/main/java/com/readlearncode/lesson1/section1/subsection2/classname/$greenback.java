@@ -1,4 +1,4 @@
-package com.readlearncode.session1.classname;
+package com.readlearncode.lesson1.section1.subsection2.classname;
 
 /**
  * Source code github.com/readlearncode

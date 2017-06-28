@@ -1,4 +1,4 @@
-package com.readlearncode.session1;
+package com.readlearncode.lesson1.section1.subsection5;
 
 /**
  * Source code github.com/readlearncode
@@ -12,17 +12,20 @@ public class VariableScope {
 
     private float classScope = 10.0f;
 
-    public void scopeMethod(String localScopeString){
+    public void scopeMethod(String localScopeString) {
 
         byte localScopeByte = 120;
         String localScopeInstance = new String("Hello");
 
-        if(true){
+        if (true) {
             double localScopeDouble = 10.50d;
         }
 
         {
             char localScopeChar = 'X';
+            {
+                float localScopeFloat = 5f;
+            }
         }
 
     }
