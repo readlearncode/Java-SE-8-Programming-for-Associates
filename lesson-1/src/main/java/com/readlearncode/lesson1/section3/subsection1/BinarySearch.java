@@ -17,6 +17,7 @@ public class BinarySearch {
         scores[2] = -10;
         int index = Arrays.binarySearch(scores, -10);
         System.out.println(index);
-
     }
+
+
 }

@@ -13,8 +13,9 @@ public class Search {
 
         int[] scores = {99, 180, 43, -20};
         Arrays.sort(scores);
-        int index = Arrays.binarySearch(scores, 100);
+        int index = Arrays.binarySearch(scores, 99);
         System.out.println(index);
+
 
     }
 }
