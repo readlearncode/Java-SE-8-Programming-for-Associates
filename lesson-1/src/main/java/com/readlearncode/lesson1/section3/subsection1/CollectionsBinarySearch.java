@@ -10,6 +10,7 @@ import java.util.Collections;
  * @version 1.0
  */
 public class CollectionsBinarySearch {
+
     public static void main(String... args) {
         ArrayList<Integer> scores = new ArrayList<>();
         scores.add(10);
@@ -19,14 +20,5 @@ public class CollectionsBinarySearch {
         Collections.sort(scores);
         int index = Collections.binarySearch(scores, 10);
         System.out.print(index);
-
-System.gc();
-
-
-        int[] a[] = new int[5][5];
-         a[0][0] = 3;
-
-
-
     }
 }

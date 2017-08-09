@@ -6,7 +6,7 @@ package com.readlearncode.lesson1.section3.subsection1;
  * @author Alex Theedom www.readlearncode.com
  * @version 1.0
  */
-public class ArrayIndexOutOfBoundsExceptionExample {
+public class ArrayIndexOutOfBoundsExceptionExample2 {
 
     public static void main(String... args){
 

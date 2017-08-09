@@ -1,10 +1,6 @@
 package com.readlearncode.lesson1.section3.subsection1;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-import static java.util.Arrays.asList;
 
 /**
  * Source code github.com/readlearncode
@@ -12,21 +8,20 @@ import static java.util.Arrays.asList;
  * @author Alex Theedom www.readlearncode.com
  * @version 1.0
  */
-public class ConvertingLArray {
+public class UseArrayListExample7 {
 
     public static void main(String... main){
 
-        ArrayList<String> names = new ArrayList<>();
+        ArrayList<String> names = new ArrayList<>(10);
         names.add("Alex");
         names.add("Zoe");
         names.add("Jane");
-
-        String[] newNames = new String[3];
-        names.toArray(newNames);
-
-        List<String> nextNames = Arrays.asList(newNames);
-
+        names.add(1, "John");
+        names.set(2, "Mary");
+        names.remove("Mary");
+        names.remove(1);
+        int size = names.size();
+        System.out.println(size);
 
     }
-
 }

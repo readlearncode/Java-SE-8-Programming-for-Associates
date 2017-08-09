@@ -8,13 +8,15 @@ import java.util.Arrays;
  * @author Alex Theedom www.readlearncode.com
  * @version 1.0
  */
-public class Search {
+public class SortExample2 {
+
     public static void main(String... args){
 
         int[] scores = {99, 180, 43, -20};
         Arrays.sort(scores);
-        int index = Arrays.binarySearch(scores, 100);
-        System.out.println(index);
+        for(int x = 0; x < scores.length; x++){
+            System.out.println(scores[x]);
+        }
 
     }
 }

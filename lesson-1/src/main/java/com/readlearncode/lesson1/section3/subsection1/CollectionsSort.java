@@ -1,7 +1,6 @@
 package com.readlearncode.lesson1.section3.subsection1;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 
 /**
@@ -18,7 +17,8 @@ public class CollectionsSort {
         scores.add(-30);
         scores.add(80);
         scores.add(0);
+        System.out.println("Before: " + scores);
         Collections.sort(scores);
-        System.out.print(scores);
+        System.out.println("After: " + scores);
     }
 }
