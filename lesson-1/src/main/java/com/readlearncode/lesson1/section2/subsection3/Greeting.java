@@ -7,16 +7,24 @@ package com.readlearncode.lesson1.section2.subsection3;
  * @version 1.0
  */
 public class Greeting {
+
     {
-        System.out.println("Hello");
+        System.out.println("1st Instance Initializer");
     }
-    public Greeting(){
-        System.out.println("Alex");
+
+    public Greeting() {
+        System.out.println("Constructor");
     }
+
     {
-        System.out.println("Bye");
+        System.out.println("2nd Instance Initializer");
     }
+
     static {
-        System.out.println("OK");
+        System.out.println("Static Initializer");
+    }
+
+    public static void main(String... args) {
+        new Greeting();
     }
 }

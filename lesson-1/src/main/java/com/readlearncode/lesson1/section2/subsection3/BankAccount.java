@@ -10,7 +10,9 @@ public class BankAccount {
     public BankAccount(String accName) {
         name = accName;
     }
-    public void setName(String accName){
-        name = accName;
+    public void setName(String accName){name = accName;}
+    public String getName(){ return name;}
+
+    public void withdraw(int i) {
     }
 }

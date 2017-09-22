@@ -8,7 +8,7 @@ package com.readlearncode.lesson1.section2.subsection1;
  */
 public class LocalVariable {
 
-    public void DeclareLocalVarables(){
+    public void declareLocalVarables(){
 //        int x = 100;
 //        int y;
 //        int z;

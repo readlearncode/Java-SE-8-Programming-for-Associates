@@ -14,5 +14,4 @@ public class FieldAccess {
     public float value;
 
 
-
 }

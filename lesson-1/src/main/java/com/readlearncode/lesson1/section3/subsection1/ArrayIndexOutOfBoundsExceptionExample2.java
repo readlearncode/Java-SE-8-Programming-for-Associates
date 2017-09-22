@@ -11,7 +11,7 @@ public class ArrayIndexOutOfBoundsExceptionExample2 {
     public static void main(String... args){
 
         int scores[] = new int[4];
-        if(scores.length < 4) {
+        if(scores.length > 4) {
             scores[4] = 180;
         }
 

@@ -8,7 +8,7 @@ package com.readlearncode.lesson1.section2.subsection1;
  */
 public class ScopeAndInitialisation {
 
-    public void DetermineIfVotable(int age){
+    public void determineIfVotable(int age){
         int adult = 18;
         boolean canVote;
         if( age >= adult){
