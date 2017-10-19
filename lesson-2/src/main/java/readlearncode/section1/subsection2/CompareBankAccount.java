@@ -10,8 +10,8 @@ public class CompareBankAccount {
 
     public static void main(String...args){
 
-        BankAccount account1 = new BankAccount(123456789);
-        BankAccount account2 = new BankAccount(123456789);
+        BankAccount account1 = new BankAccount(1234);
+        BankAccount account2 = new BankAccount(1234);
         System.out.println(account1 == account2);
         System.out.println(account1.equals(account2));
 

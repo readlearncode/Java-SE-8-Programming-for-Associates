@@ -8,11 +8,12 @@ package readlearncode.section1.subsection1;
  */
 public class ShortCircuitSimple {
 
-    public static void main(String...args){
+    public static void main(String... args) {
 
         boolean x = true;
         int a = 10;
         int b = 5;
+
         System.out.println(x || a > ++b);
         System.out.println(b);
 

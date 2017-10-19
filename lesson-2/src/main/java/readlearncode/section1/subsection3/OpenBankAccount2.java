@@ -1,5 +1,7 @@
 package readlearncode.section1.subsection3;
 
+import readlearncode.section1.subsection2.*;
+
 /**
  * Source code github.com/readlearncode
  *
@@ -9,18 +11,13 @@ package readlearncode.section1.subsection3;
 public class OpenBankAccount2 {
 
     public static void main(String... args) {
-
-        int age = 18; // Let's assume age is 18 years old
-
-        BankAccount account = new BankAccount();
-
-        if (age >= 13) {
-            account = new BankAccount();
-            System.out.println("Thank you for opening an account with us.");
+        readlearncode.section1.subsection2.BankAccount account;
+        int age = 16;
+        if (age >= 18) {
+            account = new readlearncode.section1.subsection2.BankAccount();
+            System.out.println("Welcome. Your bank account is now open!");
         } else {
-            System.out.println("Sorry you're too young to open an account");
+            System.out.println("Sorry you're too young!");
         }
-
-
     }
 }
