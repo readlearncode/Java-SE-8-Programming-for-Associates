@@ -16,14 +16,14 @@ public class WhileLoopWithUnreachableCode {
         }
 
         // Unreachable code from here onwards
-        System.out.println("Unreachable code");
+//        System.out.println("Unreachable code");
 
         // Solution
-        while (true) {
-            if (args[0] != null) {
-                break;
-            }
-        }
+//        while (true) {
+//            if (args[0] != null) {
+//                break;
+//            }
+//        }
 
     }
 }

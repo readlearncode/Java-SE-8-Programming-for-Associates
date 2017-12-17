@@ -12,9 +12,9 @@ public class AnotherUnreachableCodeExample {
 
         final short s = 10;
         final byte b = 5;
-        while (s < b) {
-            // Unreachable Statement
-        }
+//        while (s < b) {
+//            // Unreachable Statement
+//        }
 
     }
 }
