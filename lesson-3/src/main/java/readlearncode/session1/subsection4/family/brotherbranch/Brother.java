@@ -14,8 +14,4 @@ public class Brother extends Grandparents {
         new Brother().talk();
     }
 
-    protected void play(){
-        // play with child
-    }
-
 }

@@ -1,5 +1,6 @@
 package readlearncode.session1.subsection2;
 
+import static java.lang.System.out;
 import static readlearncode.session1.subsection2.StaticMethod.*;
 import static readlearncode.session1.subsection2.StaticMethodAndField.count;
 
@@ -14,7 +15,7 @@ public class StaticImports {
     public static void main(String... args) {
 
         count();
-        System.out.println(count);
+        out.println(count);
 
     }
 

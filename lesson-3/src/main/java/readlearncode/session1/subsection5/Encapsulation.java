@@ -17,6 +17,7 @@ public class Encapsulation {
     public long getScore(){
         return score;
     }
+
     public static void main(String...args){
         new Encapsulation().score = 10;
     }

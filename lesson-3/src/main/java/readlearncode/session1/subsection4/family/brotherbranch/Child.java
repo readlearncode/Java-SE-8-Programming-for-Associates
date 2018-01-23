@@ -7,9 +7,9 @@ package readlearncode.session1.subsection4.family.brotherbranch;
  * @version 1.0
  */
 public class Child extends Brother {
-    public static void main(String...args){
 
-        new Brother().play();
-
+    public void scream() {
+        // scream to the world
     }
+
 }
