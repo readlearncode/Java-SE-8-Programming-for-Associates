@@ -15,5 +15,8 @@ public class DomesticCat extends Felis{
     public DomesticCat(String colour){
         super(colour);
     }
+    public void roar(){
+        System.out.println("Roars softly");
+    }
 
 }

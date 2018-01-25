@@ -9,16 +9,13 @@ package readlearncode.session2.cats;
 public abstract interface Cat extends Mammal, Animal {
 
     static void walk() {
-        System.out.println("Car is breathing!");
+        System.out.println("Cat is walking!");
     }
 
     static int legs = 4;
 
     public default void breath() {
-        System.out.println("Car is breathing!");
-
-        Cat.walk();
-
+        System.out.println("Cat is breathing!");
     }
 
     public abstract void roar();

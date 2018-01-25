@@ -26,6 +26,10 @@ public class Cougar extends Puma {
         super("Black");
     }
 
+    public void roar(){
+        System.out.println("Roars");
+    }
+
     public void eat(){}
     public boolean eat(String food){ return true;}
     public void eat(int calories){}
@@ -37,5 +41,6 @@ public class Cougar extends Puma {
     public void eat(Leopard leopard){}
     public void eat(Panthera panthera){}
     public void eat(Cat cat){}
+
 
 }

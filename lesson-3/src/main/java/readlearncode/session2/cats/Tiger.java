@@ -10,6 +10,9 @@ public class Tiger extends Panthera {
 
     private int speed = 20;
 
+    public String getFurMarkings(){
+        return "Striped";
+    }
     public int getTigerSpeed(){
         return speed;
     }
@@ -25,6 +28,19 @@ public class Tiger extends Panthera {
 //        System.out.println("The tiger's speed is: " + speed);
         tiger.hunt();
         tiger.roar();
+        tiger.getTigerSpeed();
+        tiger.getFurMarkings();
+        tiger.breath();
+
+        Panthera panthera = tiger;
+        panthera.roar();
+        panthera.hunt();
+        panthera.breath();
+
+        Cat cat = tiger;
+        cat.roar();
+        cat.breath();
+
     }
 
 }
