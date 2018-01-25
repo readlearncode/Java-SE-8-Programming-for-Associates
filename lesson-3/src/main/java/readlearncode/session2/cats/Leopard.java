@@ -18,7 +18,14 @@ public class Leopard extends Panthera {
         System.out.println("Leopard is " + super.lifeStyle);
     }
 
+    public void roar(){
+        super.roar();
+        System.out.println("Roars very loudly");
+    }
+
     public static void main(String... arg) {
         new Leopard().printLifeStyle();
+        new Leopard().roar();
     }
+
 }
