@@ -1,4 +1,4 @@
-package readlearncode.session2.lambdas;
+package readlearncode.session2.subsection6;
 
 /**
  * Source code github.com/readlearncode
@@ -6,14 +6,14 @@ package readlearncode.session2.lambdas;
  * @author Alex Theedom www.readlearncode.com
  * @version 1.0
  */
-public class Cougar implements Cat {
+public class Tiger implements Cat {
 
     public String type() {
-        return "Cougar";
+        return "Tiger";
     }
 
     public boolean isStriped() {
-        return false;
+        return true;
     }
 
 }

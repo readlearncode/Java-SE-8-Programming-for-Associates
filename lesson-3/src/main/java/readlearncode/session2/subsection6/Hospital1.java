@@ -1,4 +1,4 @@
-package readlearncode.session2.lambdas;
+package readlearncode.session2.subsection6;
 
 /**
  * Source code github.com/readlearncode

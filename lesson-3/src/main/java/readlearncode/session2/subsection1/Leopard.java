@@ -9,7 +9,7 @@ package readlearncode.session2.subsection1;
 public class Leopard extends Panthera {
 
     public void roar(){
-//        super.roar();
+        super.roar();
         System.out.println("Roars very loudly");
     }
 

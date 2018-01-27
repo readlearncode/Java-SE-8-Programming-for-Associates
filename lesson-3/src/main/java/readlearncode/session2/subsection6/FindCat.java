@@ -1,4 +1,4 @@
-package readlearncode.session2.lambdas;
+package readlearncode.session2.subsection6;
 
 import java.util.ArrayList;
 import java.util.List;

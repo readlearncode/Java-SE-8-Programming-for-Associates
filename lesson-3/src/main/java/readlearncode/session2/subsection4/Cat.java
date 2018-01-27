@@ -1,4 +1,4 @@
-package readlearncode.session2.lambdas;
+package readlearncode.session2.subsection4;
 
 import readlearncode.session2.cats.Animal;
 import readlearncode.session2.cats.Mammal;
@@ -9,10 +9,13 @@ import readlearncode.session2.cats.Mammal;
  * @author Alex Theedom www.readlearncode.com
  * @version 1.0
  */
-interface Cat {
+public abstract interface Cat {
 
-    public String type();
+    public default void breath() {
+        System.out.println("Cat is breathing!");
+    }
 
-    boolean isStriped();
+    public abstract void roar();
 
 }
+
